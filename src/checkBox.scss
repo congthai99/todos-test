@@ -1,0 +1,51 @@
+label {
+    font-size: 1.5em;
+}
+
+input[type=checkbox]:checked+label {
+    color: grey;
+    text-decoration: line-through;
+}
+
+
+/*This is the MDN spec for doing this*/
+
+
+/* #cbox3 {
+  color:blue;
+  text-decoration: line-through;
+} */
+
+#cbox3:checked+label {
+    color: blue;
+    text-decoration: line-through;
+}
+
+.cbox4 {
+    font-size: 5em;
+    color: red;
+    text-decoration: line-through;
+}
+
+
+/* .cbox4:checked + label {
+  font-size: 5em;
+  color:red;
+  text-decoration: line-through;
+} */
+
+
+/* section article div input[type=checkbox]:checked + label {
+  color:orange;
+  text-decoration: line-through;
+} */
+
+
+/* Super over selected!*/
+
+
+/* input[type=checkbox]:checked + label {
+  font-size: 3em;
+  color:green;
+  text-decoration: line-through;
+} */
